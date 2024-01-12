@@ -1,0 +1,170 @@
+
+        .body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .jumbotron1 {
+            background-image: url('resources/1.svg'); /* Replace with the actual path to your background image */
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+
+        .navbar {
+            background-color: #28a745; /* Bootstrap green color */
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        .feature-box {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            color: #28a745;
+        }
+
+        .footer {
+            background-color: #28a745; /* Bootstrap dark color */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    
+
+
+
+
+
+
+        /* Board of Directors */
+
+
+         
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+
+        .person {
+            margin-bottom: 30px;
+        }
+
+        .person img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 75%;
+        }
+     /* contact  */
+
+
+
+      
+        .body {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* proposed Design  */
+
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+
+        .jumbotron {
+            background-image: url('resources/9.svg'); /* Replace with the actual path to your background image */
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+
+        .product-section {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .product-description {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    
+
+
+
+
+
+
+
+        .jumbotron3 {
+            background-image: url('bg/10.svg'); /* Replace with the actual path to your background image */
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+
+
+
+        .jumbotron4 {
+            background-image: url('bg/11.svg'); /* Replace with the actual path to your background image */
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+
+
+
+        .jumbotron5 {
+            background-image: url('resources/1.svg'); /* Replace with the actual path to your background image */
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }

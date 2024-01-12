@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Elixir - Events and News</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .event-card {
+            margin-bottom: 30px;
+        }
+
+        .event-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .event-card:hover .event-image {
+            transform: scale(1.1);
+        }
+
+        .event-content {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#">Tropical Elixir</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Proposed Design of the Model.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="roadMap.html">Roadmap</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Board of Directors and Staff Overview.html">Board & Staff</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="eventsNews.html">Events & News</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Events and News Page -->
+    <div class="container">
+        <h1 class="mb-4">Exciting Events and News</h1>
+
+        <!-- Event 1 -->
+        <div class="row event-card">
+            <div class="col-md-6">
+                <img src="events/15.svg" alt="Event 1" class="event-image">
+            </div>
+            <div class="col-md-6 event-content">
+                <h2>Exciting Company Event</h2>
+                <p> Step into the enchantment of a new beginning at our thrilling New Year's company event!
+                    Celebrating a year of achievements, forging connections, and setting the stage for another chapter
+                    of success. With festive cheer, live entertainment, and a touch of glamour, let's welcome the New
+                    Year with joy, camaraderie, and the promise of exciting opportunities ahead.
+
+                </p>
+            </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="row event-card">
+            <div class="col-md-6">
+                <img src="events/14.svg" alt="Event 2" class="event-image">
+            </div>
+            <div class="col-md-6 event-content">
+                <h2>Celebrating Our Latest Award</h2>
+                <p> Proud recipient of the Sustainability Award, our Tropical Elixir brand stands as a beacon of
+                    environmental stewardship.
+                    From responsible sourcing of tropical ingredients to eco-friendly packaging, our commitment to
+                    sustainability goes beyond refreshment
+                    it's a promise to nurture both the earth and your well-being with every sip of our conscientiously
+                    crafted elixirs.</p>
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="row event-card">
+            <div class="col-md-6">
+                <img src="events/18.svg" alt="Event 3" class="event-image">
+            </div>
+            <div class="col-md-6 event-content">
+                <h2>Spreading Joy through Charity</h2>
+                <p>Enriching Lives, One Act of Kindness at a Time: Our Charity Program is a testament to our commitment
+                    to community and compassion. Through impactful initiatives and heartfelt giving, we strive to make a
+                    positive difference in the lives of those in need, fostering a culture of empathy, support, and
+                    shared humanity.
+                </p>
+            </div>
+        </div>
+
+        <!-- Event 4 -->
+        <div class="row event-card">
+            <div class="col-md-6">
+                <img src="events/16.svg" alt="Event 4" class="event-image">
+            </div>
+            <div class="col-md-6 event-content">
+                <h2>Tropical Elixir's Beach Cleaning Initiative</h2>
+                <p>Join us in making waves of positive change as we embark on a meaningful beach cleaning initiative.
+                    Together, we'll stride along the sandy shores, collecting memories, and leaving only footprints.
+                    Let's unite for a cleaner, greener coastline, preserving the beauty of our oceans and fostering a
+                    sustainable legacy for generations to come</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2024 Tropical Elixir. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-12">
+                    <p class="text-md-right">
+                        Contact: <a href="mailto:info@tropicalelixir.com">info@tropicalelixir.com</a><br>
+                        Address: 123 Palm Street, Tropical City, Tropics<br>
+                        Telephone: +123 456 7890
+                    </p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
